@@ -1,0 +1,70 @@
+/* @import url('https://fonts.cdnfonts.com/css/matrix'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: #36BC55;
+    font-family: sans-serif ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#heading{
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+form{
+    padding: 100px;
+}
+#name,#gender,#address,#email,#pincode,#card,#exp,#cvv{
+    margin-top: 15px;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background: red; */
+}
+#n{
+    margin-left: 25px;
+}
+#a{
+    margin-left: 64px;
+}
+#gen{
+    margin-left: 20px;
+}
+#e{
+    margin-left: 80px;
+}
+#p{
+    margin-left: 65px;
+}
+#subscription{
+    margin-top: 25px;
+}
+#card_type{
+    margin-left: 50px;
+}
+#ed{
+    margin-left: 10px;
+}
+#pw{
+    margin-left: 95px;
+}
+#submit{
+    height: 5vh;
+    width: 15vw;
+    font-size: medium;
+    background-color: #36BC55;
+    color: black;
+    font-family: 'Matrix', sans-serif;
+    font-weight: 900;
+
+}

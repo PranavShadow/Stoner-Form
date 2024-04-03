@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stoner Application Form</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+
+  <body>
+    <form action="">
+      <h1 id="heading">Stoner Application Form</h1>
+      <h1>Stoner Personal Details</h1>
+      <div id="details">
+        <div id="name">
+          <p>
+            <t2><b>Stoner Name:</b></t2>
+            <input type="text" name="name" id="n" required />
+          </p>
+        </div>
+        <div id="gender">
+          <t2><b>Select Gender:</b></t2>
+          <p id="gen">
+            Male <input type="radio" name="gender" id="m" required /> Female
+            <input type="radio" name="gender" id="f" required />
+          </p>
+        </div>
+        <div id="address">
+          <t2><b>Address:</b></t2>
+          <p>
+            <textarea
+              name="area"
+              id="a"
+              cols="120"
+              rows="2"
+              required
+            ></textarea>
+          </p>
+        </div>
+        <div id="email">
+          <p>
+            <t2><b>Email:</b></t2>
+            <input type="email" name="email" id="e" required />
+          </p>
+        </div>
+        <div id="pincode">
+          <t2><b>Pincode:</b></t2>
+          <p>
+            <input type="number" name="number" id="p" required />
+          </p>
+        </div>
+      </div>
+
+      <h1 id="subscription">Stoner Subscription</h1>
+      <div id="card">
+        <b>Card Type:</b>
+        <p>
+          <select name="card_type" id="card_type" required>
+            <option value="">--Select a Card Type--</option>
+            <option value="visa">Visa</option>
+            <option value="rupay">Rupay</option>
+            <option value="mastercard">MasterCard</option>
+            <option value="gaand">Gaand</option>
+          </select>
+        </p>
+      </div>
+      <div id="exp">
+        <t2><b>Expiration Date:</b></t2>
+        <p>
+          <input type="date" name="exp_date" id="ed" required />
+        </p>
+      </div>
+      <div id="cvv">
+        <t2><b>CVV:</b></t2>
+        <p>
+          <input type="password" name="password" id="pw" required />
+        </p>
+      </div>
+      <br>
+      <input type="submit" value="Submit Form" id="submit"/>
+    </form>
+  </body>
+</html>
